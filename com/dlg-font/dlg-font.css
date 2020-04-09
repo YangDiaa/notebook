@@ -1,0 +1,81 @@
+.notepad-dlg-font{
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    position: fixed;
+    z-index: 10;
+}
+.notepad-dlg-font .dialogbox{
+    border: 1px solid #0f7fdb;
+    box-shadow: 10px 10px 10px  #d6d6d6;
+    box-sizing: border-box;
+    cursor: default;
+    width: 438px;
+    height: 498px;
+    margin: 0 auto;
+    top: 40px;
+    position: relative;
+    user-select: none;
+}
+.notepad-dlg-font .titlebar{
+    background: white;
+    font-size: 1em;
+    height: 30px;
+}
+.notepad-dlg-font .title{
+    left: 10px;
+    line-height: 30px;
+    position: absolute;
+    margin: 0 ;
+}
+.notepad-dlg-font .close-btn{
+    color: gray;
+    line-height: 30px;
+    position: absolute;
+    right: 0 ;
+    text-align: center;
+    width: 30px; 
+}
+.notepad-dlg-font .main{
+    background: #f0f0f0;
+    box-sizing: border-box;
+    height: 466px;
+    padding: 12px;
+    position: relative;
+}
+.notepad-dlg-font .main .font-family,
+.notepad-dlg-font .main .font-style{
+    display: inline-block;
+    margin-right: 16px;
+}
+.notepad-dlg-font .main .font-size{
+    display: inline-block;
+}
+.notepad-dlg-font .main .sample{
+    border-color: white;
+    height: 78px;
+    margin-top: 28px;
+    width: 194px;
+}
+.notepad-dlg-font .main .script{
+    margin-top: 12px;
+}
+.notepad-dlg-font .main select{
+    height: 22px;
+    width: 214px;
+}
+.notepad-dlg-font .main input{
+    width: 70px;
+    height: 25px;
+}
+.notepad-dlg-font .main .ok{
+    bottom: 10px;
+    position: absolute;
+    right: 110px;
+}
+.notepad-dlg-font .main .cancel{
+    bottom: 10px;
+    position: absolute;
+    right: 16px;
+}

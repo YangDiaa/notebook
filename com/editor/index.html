@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>编辑器布局和测试页面</title>
+    <link rel="stylesheet" href="../../css/normalize.css">
+    <link rel="stylesheet" href="../menubar/menubar.css">
+    <link rel="stylesheet" href="./editor.css">
+</head>
+<body>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>    
+    <script src="//cdn.bootcss.com/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="../../js/app.js"></script>
+    <script src="../../js/menu-data.js"></script>
+    <script src="../menubar/menubar.js"></script>
+    <script src="./editor.js"></script>
+    <script>
+        $(function() {
+            $menuBar.show(np.menuData);
+            $menuBar.enabled(4,0,false);
+            $menuBar.enabled(1,0,true);
+            $editor.show();
+        });
+    </script>
+</body>
+</html>
